@@ -1,0 +1,79 @@
+/* Styles for the login page container */
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  
+  /* Styles for the login form */
+.login-form {
+    padding: 20px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 100px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styles for the login form title */
+  .login-title {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Styles for the input fields */
+  .login-input {
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: solid;
+    border-radius: 4px;
+  }
+  
+  /* Styles for the login button */
+  .login-button {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styles for the signup link */
+  .signup-link {
+    text-align: center;
+  }
+  
+  .signup-link a {
+    color: #888;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    color: #555;
+  }
+
+  body{
+    background-color: #f4eded;
+  }
+ 

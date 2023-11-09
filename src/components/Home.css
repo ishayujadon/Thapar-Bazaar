@@ -1,0 +1,32 @@
+.icons{
+    color:bisque;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.icons:hover{
+    color:red
+}
+
+.icon-con{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding-right: 5px;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 24px;
+    color: #002f34;
+    font-weight: bold;
+}
+
+.card{
+    border: 2px solid black;
+}
+
+.price-text{
+    color: #002f34;
+    font-size: 25px;
+}

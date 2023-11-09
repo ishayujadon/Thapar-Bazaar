@@ -1,0 +1,36 @@
+.txt{
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.txt2{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 50px;
+
+}
+
+.r{
+    position: relative;
+    top: 30px;
+    right:150px;
+    text-align: center;
+}
+
+.pd_img{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.bttn{
+    height: 35px;
+    background-color: #002f34;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding: 1px 12px;
+    margin:10px;
+}
